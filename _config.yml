@@ -1,0 +1,30 @@
+title:              TRIALS AND ERRORS BIOINFORMATICS
+email:              cintamukti818@gmail.com
+description:        Experimental Life
+author:             Athena Chu
+baseurl:            "/AthenACHY.github.io"
+#url:                "https://athenachy.github.io"
+avatar: https://avatars3.githubusercontent.com/u/32728871?s=40&v=4
+# Social Profiles
+#twitter_username:   SBootstrap
+#github_username:    BlackrockDigital
+#facebook_username:  StartBootstrap
+#linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+# collection
+collections:
+  stories:
+    output: true
+    permalink: /stories/:path/
